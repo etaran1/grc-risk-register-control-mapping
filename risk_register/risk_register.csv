@@ -1,0 +1,5 @@
+risk_id,risk_title,description,asset,likelihood,impact,inherent_risk,existing_controls,control_gaps,mitigation_plan,owner,residual_risk
+R-001,Weak MFA Coverage,MFA not enforced for all remote access,Remote Access Gateway,Medium,High,High,Partial MFA for admins,User accounts not enforced,Roll out MFA to all users + conditional access,IT Security,Medium
+R-002,Insufficient Central Logging,Logs not centralized or retained consistently,Core Servers,Medium,High,High,Local logs only,No SIEM/retention standards,Centralize logging + define retention policy,IT Ops,Medium
+R-003,Patch Latency,Critical patches delayed beyond 30 days,Windows endpoints,High,Medium,High,Manual patching,No SLA tracking,Implement patch SLA + reporting dashboard,IT Ops,Medium
+R-004,Access Reviews Missing,No quarterly access reviews for privileged accounts,Identity system,Medium,High,High,Ad-hoc reviews,No formal schedule,Quarterly access review process + evidence,IT Security,Medium
